@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3,p{
+    text-align: center;
+}
+
+.card-container{
+    width: 200px;
+    padding: 10px;
+
+    border: 1px solid black;
+}
