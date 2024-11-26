@@ -9,6 +9,8 @@ div.classList.add('wrap','collapse','alpha','beta');
 div.style.backgroundColor = 'red';
 div.style.color = 'black';
 div.style.fontSize = '24px';
+div.style.width = '200px';
+div.style.height = '200px';
 
 //додати елемент до body
 document.body.appendChild(div);
