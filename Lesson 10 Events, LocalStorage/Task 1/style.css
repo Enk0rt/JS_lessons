@@ -1,0 +1,13 @@
+#text{
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+}
+
+button{
+    width: 200px;
+}
+
+.display{
+    display: none;
+}

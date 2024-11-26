@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        form{
+            width: 170px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+        input{
+            display: block;
+        }
+        button{
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<form action="" name="tableGen">
+    <div>
+        <label for="rows">
+            Enter number of rows
+            <input type="number" id="rows">
+        </label>
+        <label for="columns">
+            Enter number of sockets
+            <input type="number" id="columns">
+        </label>
+        <label for="content">
+            Enter content
+            <input type="number" id="content">
+        </label>
+    </div>
+    <button type="submit">Generate</button>
+</form>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    margin-bottom: 50px;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid black
+}
+body{
+    height: 100vh;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
